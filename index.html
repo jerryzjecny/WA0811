@@ -21,20 +21,119 @@
     <div class="content">
         <p>2101 vozu</p>
       </div>
-    <p>Škoda</p>
-    <p> (2436 vozů)</p>
-    <p> SUV / 4x4 a crossovery</p>
-    <p> (2189 vozů)</p>
-    <p> Rodinné vozy</p>
-    <p>  (1125 vozů)</p>
-    <p>  Combi</p>
-    <p> (  2482 vozů)</p>
-    <p>   Luxusní vozy</p>
-    <p>   (475 vozů)</p>
-    <p>  Mototechna - zánovní a předváděcí vozy</p>
-    <p>   (1216 vozů)</p>
-    <p>  Nově v nabídce</p>
-    <p> (522 vozů)</p>
+
+
+      <div class="accordion" id="accordionExample">
+        <div class="accordion-item">
+          <h2 class="accordion-header">
+            <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                Škoda
+            </button>
+          </h2>
+          <div id="collapseOne" class="accordion-collapse collapse show" data-bs-parent="#accordionExample">
+            <div class="accordion-body">
+                <strong>2436 vozů</strong> 
+            </div>
+          </div>
+        </div>
+        <div class="accordion-item">
+          <h2 class="accordion-header">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                SUV / 4x4 a crossovery
+            </button>
+          </h2>
+          <div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+            <div class="accordion-body">
+               <strong>2189 vozů</strong>
+            </div>
+          </div>
+        </div>
+        <div class="accordion-item">
+          <h2 class="accordion-header">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+              Rodinne vozy
+            </button>
+          </h2>
+          <div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+            <div class="accordion-body">
+              <strong>1125 vozů</strong>
+            </div>
+          </div>
+        </div>
+      </div>
+      <ol>
+        <li>rychle</li>
+        <li>s pohodlim</li>
+        <li>Levne</li>
+      </ol>
+
+      <div id="carouselExample" class="carousel slide">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="https://th.bing.com/th/id/R.3102beaab7b5f8b29dd41698e7683890?rik=jSfO6Q%2fWrr8%2bcw&pid=ImgRaw&r=0" class="d-block w-100" alt="1">
+          </div>
+          <div class="carousel-item">
+            <img src="https://th.bing.com/th/id/R.9e2a8aa02280d2223d59a0efa7a205cc?rik=%2biNLSaphZBujjA&pid=ImgRaw&r=0" class="d-block w-100" alt="2">
+          </div>
+          <div class="carousel-item">
+            <img src="https://th.bing.com/th/id/R.ab3b57bcec29815da2038cdd950fb2fd?rik=IQbjFjhXzcTJqQ&pid=ImgRaw&r=0" class="d-block w-100" alt="3">
+          </div>
+          <div class="carousel-item">
+            <img src="https://th.bing.com/th/id/R.18f3f2aceb3be401de2baf93e8b5dbd9?rik=j05hNU7s%2fceSXw&riu=http%3a%2f%2fcdn.bmwblog.com%2fwp-content%2fuploads%2f2017%2f12%2fE60-BMW-M5-16.jpg&ehk=QXOQR2lX01Hmoak%2b6IlaXJhbZBSYoWnJz6vl17KSRYU%3d&risl=&pid=ImgRaw&r=0" class="d-block w-100" alt="4">
+          </div>
+          <div class="carousel-item">
+            <img src="https://th.bing.com/th/id/OIP.rDOzlP--cwxjX3EUMwtIdQHaEo?pid=ImgDet&rs=1" class="d-block w-100" alt="5">
+          </div>
+          <div class="carousel-item">
+            <img src="https://th.bing.com/th/id/OIP.7ndTEZikN8UJNK1evX0vQAHaEo?pid=ImgDet&rs=1" class="d-block w-100" alt="6">
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+
+
+<button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
+    Modal
+  </button>
+
+  <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h1 class="modal-title fs-5" id="exampleModalLabel">SLEVA</h1>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          Pridte dnes a dostante slevu na nove pneu
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Ok</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <table>
+    <tr>
+      <th>Combi</th>
+      <th>Luxusni vozy</th>
+      <th>Mototechna</th>
+    </tr>
+    <tr>
+      <td>2482 vozů</td>
+      <td>475 vozů</td>
+      <td>1216 vozů</td>
+    </tr>    
+  </table>
+
+    <a href="index2.html"> Nově v nabídce</a> 
     <p>   S odpočtem DPH</p>
     <p>  (2408 vozů)</p>
     <p>  Elektro a Hybridy</p>
@@ -44,5 +143,21 @@
 
     
 </body>
+<script>
+    var coll = document.getElementsByClassName("collapsible");
+    var i;
+    
+    for (i = 0; i < coll.length; i++) {
+      coll[i].addEventListener("click", function() {
+        this.classList.toggle("active");
+        var content = this.nextElementSibling;
+        if (content.style.display === "block") {
+          content.style.display = "none";
+        } else {
+          content.style.display = "block";
+        }
+      });
+    }
+    </script>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
 </html>
